@@ -190,7 +190,7 @@ Panel administrativo del sistema.
 # 📂 Estructura del proyecto
 
 ```bash
-LaravelRentalSystem/
+Laravel-Rental-Management-System/
 │
 ├── app/                      # Lógica principal
 ├── bootstrap/                # Bootstrap Laravel
@@ -228,7 +228,7 @@ LaravelRentalSystem/
 ## 1️⃣ Clonar repositorio
 
 ```bash
-git clone https://github.com/isairey/laravel-rental-system.git
+git clone https://github.com/isairey/Laravel-Rental-Management-System.git
 ```
 
 ---
@@ -236,7 +236,7 @@ git clone https://github.com/isairey/laravel-rental-system.git
 ## 2️⃣ Entrar al proyecto
 
 ```bash
-cd laravel-rental-system
+cd Laravel-Rental-Management-System
 ```
 
 ---
@@ -344,27 +344,6 @@ npm run dev
 
 ---
 
-# 📸 Vista previa
-
-## 🖥️ Interfaces del sistema
-
-<div align="center">
-
-### 🏠 Dashboard principal
-![Dashboard](https://images.unsplash.com/photo-1556740749-887f6717d7e4?q=80&w=1200)
-
-### 📅 Gestión de reservas
-![Reservations](https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=1200)
-
-### 👥 Administración de usuarios
-![Users](https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1200)
-
-### 📊 Panel administrativo
-![Admin](https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200)
-
-</div>
-
----
 
 # 🧠 Objetivos del proyecto
 
