@@ -1,59 +1,455 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<div align="center">
+
+<img width="220" src="https://cdn-icons-png.flaticon.com/512/919/919830.png" />
+
+# 🚀 Laravel Rental Management System
+
+### Plataforma web moderna desarrollada con Laravel ⚡
 
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+  <b>Laravel Rental Management System</b> es una plataforma full stack diseñada para la administración de rentas, reservas y gestión de usuarios utilizando el poderoso framework Laravel.
 </p>
 
-## About Laravel
+<p align="center">
+  <img src="https://img.shields.io/badge/Laravel-FullStack-FF2D20?style=for-the-badge&logo=laravel&logoColor=white">
+  <img src="https://img.shields.io/badge/PHP-Backend-777BB4?style=for-the-badge&logo=php&logoColor=white">
+  <img src="https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
+  <img src="https://img.shields.io/badge/OpenSource-WebApp-success?style=for-the-badge">
+</p>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<p align="center">
+  <a href="#-acerca-del-proyecto">Acerca</a> •
+  <a href="#-características">Características</a> •
+  <a href="#-tecnologías-utilizadas">Tecnologías</a> •
+  <a href="#-instalación">Instalación</a> •
+  <a href="#-estructura-del-proyecto">Estructura</a>
+</p>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+</div>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+---
 
-## Learning Laravel
+# 🌌 Acerca del proyecto
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+**Laravel Rental Management System** es una aplicación web construida con Laravel orientada a la administración de propiedades, eventos, vehículos o servicios de renta mediante un sistema moderno, seguro y escalable.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+La plataforma permite:
 
-## Laravel Sponsors
+- 🏠 Gestionar propiedades o productos en renta
+- 👥 Administrar usuarios y clientes
+- 📅 Gestionar reservas
+- 💳 Controlar pagos
+- 📊 Visualizar estadísticas administrativas
+- 🔐 Gestionar autenticación y permisos
+- ⚡ Automatizar operaciones del sistema
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+---
 
-### Premium Partners
+# ✨ Características
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+## 🏠 Gestión de rentas
 
-## Contributing
+- 📋 Registro de propiedades o artículos
+- 📅 Gestión de reservas
+- 💰 Administración de precios
+- 📍 Gestión de ubicaciones
+- 🖼️ Carga de imágenes
+- ⚡ Disponibilidad en tiempo real
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+---
 
-## Code of Conduct
+## 👥 Gestión de usuarios
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+- 👤 Registro e inicio de sesión
+- 🔐 Autenticación segura
+- 📄 Gestión de perfiles
+- 🛡️ Roles y permisos
+- 📊 Administración centralizada
 
-## Security Vulnerabilities
+---
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## 📊 Panel administrativo
 
-## License
+- 📈 Dashboard interactivo
+- 📅 Control de reservas
+- 👥 Administración de usuarios
+- 💰 Reportes financieros
+- ⚡ Gestión completa del sistema
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+---
+
+## 🔔 Automatización
+
+- 📧 Notificaciones automáticas
+- 🔄 Migraciones de base de datos
+- ⚙️ Sistema modular
+- 🚀 Arquitectura escalable
+
+---
+
+# 👨‍💼 Módulos del sistema
+
+## 🏠 Rental Module
+
+Módulo principal encargado de la gestión de artículos o propiedades en renta.
+
+### Funcionalidades:
+
+- ➕ Crear registros
+- 🖼️ Subir imágenes
+- 💰 Configurar precios
+- 📅 Gestionar disponibilidad
+- 📋 Información detallada
+
+---
+
+## 👤 User Module
+
+Módulo dedicado a usuarios y autenticación.
+
+### Funcionalidades:
+
+- 🔐 Login y registro
+- 👥 Gestión de usuarios
+- 📄 Administración de perfiles
+- 🛡️ Roles y permisos
+
+---
+
+## 📊 Admin Module
+
+Panel administrativo del sistema.
+
+### Funcionalidades:
+
+- 📈 Dashboard
+- 📅 Gestión de reservas
+- 👥 Control de usuarios
+- ⚙️ Configuración del sistema
+- 📊 Estadísticas administrativas
+
+---
+
+# 🛠️ Tecnologías utilizadas
+
+## 🎨 Frontend
+
+<p>
+  <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap" />
+</p>
+
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap
+
+---
+
+## ⚙️ Backend
+
+<p>
+  <img src="https://skillicons.dev/icons?i=php,laravel" />
+</p>
+
+- PHP 8+
+- Laravel
+- Eloquent ORM
+- Sistema MVC
+- Middleware
+- API REST
+
+---
+
+## 🗄️ Base de datos
+
+<p>
+  <img src="https://skillicons.dev/icons?i=mysql" />
+</p>
+
+- MySQL
+- Migraciones
+- Relaciones SQL
+- Persistencia de datos
+
+---
+
+## 🧰 Herramientas
+
+<p>
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,postman" />
+</p>
+
+- Git
+- GitHub
+- Visual Studio Code
+- Composer
+- Postman
+
+---
+
+# 📂 Estructura del proyecto
+
+```bash
+LaravelRentalSystem/
+│
+├── app/                      # Lógica principal
+├── bootstrap/                # Bootstrap Laravel
+├── config/                   # Configuración
+├── database/                 # Migraciones y seeders
+├── public/                   # Archivos públicos
+├── resources/                # Vistas y assets
+├── routes/                   # Rutas web y API
+├── storage/                  # Archivos del sistema
+├── tests/                    # Testing
+├── artisan                   # CLI Laravel
+├── composer.json
+├── package.json
+├── README.md
+└── LICENSE
+```
+
+---
+
+# ⚡ Instalación
+
+## 📋 Requisitos
+
+- PHP 8+
+- Composer
+- MySQL
+- Node.js
+- Laravel
+- Navegador moderno
+
+---
+
+# 🚀 Configuración del proyecto
+
+## 1️⃣ Clonar repositorio
+
+```bash
+git clone https://github.com/isairey/laravel-rental-system.git
+```
+
+---
+
+## 2️⃣ Entrar al proyecto
+
+```bash
+cd laravel-rental-system
+```
+
+---
+
+## 3️⃣ Instalar dependencias PHP
+
+```bash
+composer install
+```
+
+---
+
+## 4️⃣ Instalar dependencias frontend
+
+```bash
+npm install
+```
+
+---
+
+## 5️⃣ Configurar variables de entorno
+
+```bash
+cp .env.example .env
+```
+
+---
+
+## 6️⃣ Generar clave Laravel
+
+```bash
+php artisan key:generate
+```
+
+---
+
+## 7️⃣ Configurar base de datos
+
+Editar:
+
+```bash
+.env
+```
+
+Agregar:
+
+```env
+DB_DATABASE=laravel_rental
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+---
+
+## 8️⃣ Ejecutar migraciones
+
+```bash
+php artisan migrate
+```
+
+---
+
+## 9️⃣ Ejecutar servidor
+
+```bash
+php artisan serve
+```
+
+---
+
+## 🔟 Ejecutar Vite
+
+```bash
+npm run dev
+```
+
+---
+
+# 📊 Funcionalidades principales
+
+## 🏠 Gestión de rentas
+
+- Registro de propiedades
+- Gestión de reservas
+- Disponibilidad en tiempo real
+- Administración de precios
+
+---
+
+## 👥 Administración de usuarios
+
+- Roles administrativos
+- Gestión de clientes
+- Seguridad y autenticación
+- Control de accesos
+
+---
+
+## 📈 Dashboard
+
+- Estadísticas del sistema
+- Reportes administrativos
+- Gestión centralizada
+- Control de operaciones
+
+---
+
+# 📸 Vista previa
+
+## 🖥️ Interfaces del sistema
+
+<div align="center">
+
+### 🏠 Dashboard principal
+![Dashboard](https://images.unsplash.com/photo-1556740749-887f6717d7e4?q=80&w=1200)
+
+### 📅 Gestión de reservas
+![Reservations](https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=1200)
+
+### 👥 Administración de usuarios
+![Users](https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1200)
+
+### 📊 Panel administrativo
+![Admin](https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200)
+
+</div>
+
+---
+
+# 🧠 Objetivos del proyecto
+
+## 🎯 Aprendizaje y administración
+
+- Desarrollo full stack
+- Arquitectura MVC
+- Gestión de bases de datos
+- CRUD avanzados
+- Sistemas administrativos
+- Laravel Framework
+- APIs modernas
+
+---
+
+# 🚧 Roadmap
+
+## 🔮 Próximas mejoras
+
+- 📱 Aplicación móvil
+- ☁️ Deploy cloud
+- 💳 Pasarela de pagos
+- 🤖 Recomendaciones inteligentes
+- 📊 Analytics avanzados
+- 🌐 API pública
+- 🔔 Notificaciones en tiempo real
+
+---
+
+# 🤝 Contribuciones
+
+Las contribuciones son bienvenidas ❤️
+
+## Cómo contribuir
+
+1. Fork del proyecto
+
+```bash
+git checkout -b feature/nueva-funcionalidad
+```
+
+2. Commit
+
+```bash
+git commit -m "✨ Nueva funcionalidad"
+```
+
+3. Push
+
+```bash
+git push origin feature/nueva-funcionalidad
+```
+
+4. Pull Request 🚀
+
+---
+
+# 👨‍💻 Desarrollador
+
+<div align="center">
+
+## Isai Reyes — Full Stack Developer
+
+Desarrollador apasionado por plataformas web modernas, Laravel y sistemas administrativos 🚀
+
+</div>
+
+---
+
+# 🌟 Apoya el proyecto
+
+⭐ Dale una estrella  
+🍴 Haz fork  
+📢 Comparte el proyecto
+
+---
+
+# 📜 Licencia
+
+Proyecto open source bajo licencia MIT orientado al aprendizaje y desarrollo de plataformas modernas con Laravel.
+
+---
+
+<div align="center">
+
+### 🚀 Laravel Rental Management System — administración inteligente y moderna ⚡
+
+</div>
